@@ -22,7 +22,8 @@ const whenExternalScripts = (items: (() => AstroIntegration) | (() => AstroInteg
   hasExternalScripts ? (Array.isArray(items) ? items.map((item) => item()) : [items()]) : [];
 
 export default defineConfig({
-  site: "https://lunaz.faustocv.me",
+  site: "https://faustocv.github.io",
+  base: 'lunaz-site'
 
   output: 'static',
 
