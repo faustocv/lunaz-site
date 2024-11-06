@@ -23,7 +23,7 @@ const whenExternalScripts = (items: (() => AstroIntegration) | (() => AstroInteg
 
 export default defineConfig({
   site: "https://faustocv.github.io",
-  base: 'lunaz-site'
+  base: 'lunaz-site',
 
   output: 'static',
 
